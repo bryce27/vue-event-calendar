@@ -1,7 +1,7 @@
 <template>
   <div class="events-wrapper" :style="bgColor">
     <h2 class="date" v-if="dayEventsTitle != 'All Events'">
-      {{dayEventsTitle}}
+      
     </h2>
     <div class="cal-events">
       <slot>
