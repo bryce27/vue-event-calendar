@@ -1,11 +1,11 @@
 <template>
   <div class="events-wrapper" :style="bgColor">
-    <h2 class="date">
+    <h2 class="date" v-if="dayEventsTitle != 'All Events'">
       {{dayEventsTitle}}
     </h2>
     <div class="cal-events">
       <slot>
-        <div v-for="(event, index) in events" class="event-item">
+        <div v-for="(event, index) in events" v-if="dayEventsTitle != 'All Events'" class="event-item">
           <cal-event-item :event="event" :index="index" :locale="locale"></cal-event-item>
         </div>
       </slot>

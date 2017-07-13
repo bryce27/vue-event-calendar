@@ -207,7 +207,7 @@ function isEqualDateStr(dateStr1, dateStr2) {
     format: 'MM/yyyy',
     fullFormat: 'dd/MM/yyyy',
     dayEventsTitle: 'All Events',
-    notHaveEvents: 'Not Have Events'
+    notHaveEvents: 'No Events'
   },
   zh: {
     dayNames: ["日", "一", "二", "三", "四", "五", "六"],
