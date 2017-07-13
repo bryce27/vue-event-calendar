@@ -206,7 +206,7 @@ function isEqualDateStr(dateStr1, dateStr2) {
     monthNames: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
     format: 'MM/yyyy',
     fullFormat: 'dd/MM/yyyy',
-    dayEventsTitle: 'All Eventss',
+    dayEventsTitle: 'All Events',
     notHaveEvents: 'No Events'
   },
   zh: {
